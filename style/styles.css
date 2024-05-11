@@ -3,11 +3,14 @@ body {
 }
 
 .hero {
+  opacity: 0;
+  color: rgb(0, 0, 0);
+}
+
+.hero-animated {
   animation: fadeIn 1s ease-in;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
-  opacity: 0;
-  color: rgb(0, 0, 0);
 }
 
 @keyframes fadeIn {
