@@ -18,9 +18,8 @@ function iterateText() {
   textbox.innerText = seedText;
 }
 
-let intervalId = setInterval(iterateText, 90); // Change 100 to the desired speed of your animation
+let intervalId = setInterval(iterateText, 90);
 
-// To stop the animation after a certain time, you can use setTimeout
 setTimeout(function () {
   clearInterval(intervalId);
-}, 1000000); // This will stop the animation after 1000 seconds
+}, 1000000);

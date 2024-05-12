@@ -80,5 +80,5 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   mix-blend-mode: multiply;
-  pointer-events: none; /* Prevents the pseudo-element from blocking user interactions */
+  pointer-events: none;
 }
