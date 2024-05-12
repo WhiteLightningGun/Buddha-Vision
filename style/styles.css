@@ -9,7 +9,7 @@ body {
 
 .hero-animated {
   animation: fadeIn 1s ease-in;
-  animation-delay: 0.4s;
+  animation-delay: 0.1s;
   animation-fill-mode: forwards;
 }
 
